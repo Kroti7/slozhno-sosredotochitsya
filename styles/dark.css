@@ -14,4 +14,6 @@
   --accent-color-semi-transparent: rgba(255, 0, 112, 0.4); 
   --text-color: #F1B2CE;
   --main-title-color: #DB00FF;
+
+  background-color: var(--main-color);
 }

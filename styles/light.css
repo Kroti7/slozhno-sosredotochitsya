@@ -15,6 +15,8 @@
   --accent-color-semi-transparent: rgba(255, 141, 203, 0.4); 
   --text-color: #353430;
   --main-title-color: #FFC2E6;
+
+  background-color: var(--main-title-color);
 }
 
 .page.theme_light .header__rec_icon {

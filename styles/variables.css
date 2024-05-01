@@ -20,7 +20,7 @@
     --padding: 20px;
 
     --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }  
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,6 +32,7 @@
     --main-title-color: #FFC2E6;
 
     background-image: url(../images/cover-image-light.png);
+    background-color: var(--main-title-color);
   }
 
   .page.theme_auto .header__rec_icon {
@@ -50,6 +51,8 @@
     --accent-color-semi-transparent: rgba(255, 0, 112, 0.4); 
     --text-color: #F1B2CE;
     --main-title-color: #DB00FF;
+
+    background-color: var(--main-color);
   }
 
   .page.theme_auto .header__rec_icon {

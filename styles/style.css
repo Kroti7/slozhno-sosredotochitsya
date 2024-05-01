@@ -28,10 +28,6 @@
   min-height: 648px;
 }
 
-.footer {
-  justify-content: center;
-}
-
 .header {
   position: relative;
   padding: var(--padding);
@@ -59,7 +55,7 @@
 
 /*Абсолютное позиционирование использовал для простоты понимания и использует меньше кода
 по сравнению с постройкой через гриды, если критично, то исправлю*/
-.header__theme-menu{
+.header__theme-menu {
   position: absolute;
   top: 75px;
   right: var(--padding);
@@ -67,7 +63,7 @@
 }
 
 @media (width >= 768px) {
-  .header__theme-menu{
+  .header__theme-menu {
     top: 192px;
   }
 }
@@ -119,7 +115,7 @@
 }
 
 @media (width >= 1024px) {
-  .header__theme-menu{
+  .header__theme-menu {
     top: var(--padding);
     right: 50%;
     transform: translateX(-50%);
@@ -296,7 +292,7 @@
   margin-bottom: 20px;
 }
 
-.tip_list .main__section_text{
+.tip_list .main__section_text {
   line-height: 23.5px;
 }
 
@@ -396,6 +392,7 @@
 .footer {
   position: relative;
   padding: var(--padding);
+  justify-content: center;
 }
 
 .footer__main-title {
