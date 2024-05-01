@@ -14,9 +14,13 @@
   --accent-color: #FF8DCB;
   --accent-color-semi-transparent: rgba(255, 141, 203, 0.4); 
   --text-color: #353430;
-  --h1-text-color: #FFC2E6;
+  --main-title-color: #FFC2E6;
 }
 
 .page.theme_light .header__rec_icon {
   display: none;
+}
+
+.page.theme_light .section__title {
+  color: var(--text-color);
 }
