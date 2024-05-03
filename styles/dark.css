@@ -16,4 +16,5 @@
   --main-title-color: #DB00FF;
 
   background-color: var(--main-color);
+  background-image: url(../images/cover-image-dark.png);
 }
