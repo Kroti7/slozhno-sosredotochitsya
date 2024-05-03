@@ -19,8 +19,17 @@
   background-color: var(--main-title-color);
 }
 
+.page.theme_light .decorated-zone::after,
+.page.theme_light .decorated-zone::before {
+  border-color: var(--main-color);
+}
+
 .page.theme_light .header__rec_icon {
   display: none;
+}
+
+.page.theme_light .header__theme-menu-button {
+  color: var(--text-color);
 }
 
 .page.theme_light .section__title {
