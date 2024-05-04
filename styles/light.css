@@ -4,6 +4,36 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: light) {
+  .page:not(.theme_dark) {
+    --main-color: #353430;
+    --accent-color: #FF8DCB;
+    --accent-color-semi-transparent: rgba(50, 49, 45, 0.4); 
+    --text-color: #353430;
+    --main-title-color: #FFC2E6;
+
+    background-image: url(../images/cover-image-light.png);
+    background-color: var(--main-title-color);
+  }
+
+  .page:not(.theme_dark) .decorated-zone::after,
+  .page:not(.theme_dark) .decorated-zone::before {
+    border-color: var(--main-color);
+  }
+
+  .page:not(.theme_dark) .header__rec_icon {
+    display: none;
+  }
+  
+  .page:not(.theme_dark) .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  .page:not(.theme_dark) .section__title {
+    color: var(--text-color);
+  }
+}
+
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -12,7 +42,7 @@
   background-image: url(../images/cover-image-light.png);
   --main-color: #353430;
   --accent-color: #FF8DCB;
-  --accent-color-semi-transparent: rgba(255, 141, 203, 0.4); 
+  --accent-color-semi-transparent: rgba(50, 49, 45, 0.4); 
   --text-color: #353430;
   --main-title-color: #FFC2E6;
 

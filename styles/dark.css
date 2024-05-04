@@ -4,6 +4,27 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: dark) {
+  .page:not(.theme_light) {
+    --main-color: #000028;
+    --accent-color: #FF0070;
+    --accent-color-semi-transparent: rgba(255, 0, 112, 0.4); 
+    --text-color: #F1B2CE;
+    --main-title-color: #DB00FF;
+
+    background-image: url(../images/cover-image-dark.png);
+    background-color: var(--main-color);
+  }
+
+  .page:not(.theme_light) .header__rec_icon {
+    display: flex;
+  }
+
+  .page:not(.theme_light) .section__title {
+    color: var(--accent-color);
+  }
+}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
