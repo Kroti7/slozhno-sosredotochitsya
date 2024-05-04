@@ -89,10 +89,6 @@
   width: 70px;
 }
 
-@media (width >= 768px) {
-
-}
-
 .header__theme-menu-list,
 .tip_list {
   margin: 0;
