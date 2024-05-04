@@ -253,9 +253,10 @@
   }
 
   .main__section_medium .main__section_text:last-child,
-  .main__section_large .main__section_content_container .main__section_text:last-child {
+  .main__section_large .main__section_content_container:last-child .main__section_text {
     margin-bottom: 0;
   }
+  
 
   .main__section_large {
     display: grid;
@@ -280,6 +281,14 @@
 
   .main__section_large .main__section_content_container {
     grid-column: span 1;
+  }
+
+  .main__section_large .main__section_content_container:last-child .main__section_text {
+    margin-bottom: 20px;
+  }
+
+  .main__section_large .main__section_content_container .main__section_text:last-child {
+    margin-bottom: 0;
   }
 }
 
